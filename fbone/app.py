@@ -2,12 +2,12 @@
 
 from flask import Flask, render_template
 
-from config import DefaultConfig
-from user import User
+from .config import DefaultConfig
+from .user import User
 
-from extensions import db, login_manager
-from filters import format_date, pretty_date, nl2br
-from utils import INSTANCE_FOLDER_PATH
+from .extensions import db, login_manager
+from .filters import format_date, pretty_date, nl2br
+from .utils import INSTANCE_FOLDER_PATH
 
 
 # For import *
